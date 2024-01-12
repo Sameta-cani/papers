@@ -95,7 +95,7 @@ This paper explores the capabilities of ChatGPT, examining its efficacy in analy
 - Women over 18 years old who had given birth to a living infant within the past six months participated anonymously in a web survey, providing information about their mental health and childbirth experiences.
 - At the end of the survey, participants had the opportunity to narrate their childbirth story, and these narratives were collected on average 2.73 ± 1.82 months postpartum.
 
-!(../imgs/Pasted image 20240111185246.png)[테스트]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240111185246.png)
 
 ### 2.2 Measures
 
