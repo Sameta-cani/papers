@@ -103,7 +103,7 @@ Among investigators, the PCL-5, a highly reliable survey, was used to identify P
 
 ### 2.3 Narrative Analysis 
 
-![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%20240111191553.png)
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240111191553.png)
 
 gpt-3.5-turbo-16k: Natural language understanding and generation + capable of processing 4x longer narratives of up to 16,384 tokens
 
