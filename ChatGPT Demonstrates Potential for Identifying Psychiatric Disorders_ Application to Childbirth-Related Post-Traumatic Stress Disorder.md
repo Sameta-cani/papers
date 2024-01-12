@@ -103,11 +103,11 @@ Among investigators, the PCL-5, a highly reliable survey, was used to identify P
 
 ### 2.3 Narrative Analysis 
 
-![[Pasted image 20240111191553.png|Fig 1]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%20240111191553.png)
 
 gpt-3.5-turbo-16k: Natural language understanding and generation + capable of processing 4x longer narratives of up to 16,384 tokens
 
-![[Pasted image 20240111192905.png|Table 2]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%20240111192905.png)
 
 **Model #1 - Zero-shot classification** with no previous examples given to the model. The category associated with the model's highest-confidence response was '1' (Class 1: CB-PTSD) or '0' (Class 0: No CB-PTSD) as the predicted class for the narrative. The 'temperature' variable was set to 0, to make the model deterministic, i.e., always choosing the most likely next token in the sequence.
 
@@ -134,7 +134,8 @@ Finally, using the 57640 vectors, following the modeling approach in, we trained
 
 **DFNN**
 
-![[Pasted image 20240112013220.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%20240112013220.png)
+
 
 - Input layer: 1,536 neurons
 - hidden layer: 400 neurons, 50 neurons
@@ -152,13 +153,13 @@ Steps #1 to #3 of Model #3 ([[#Appendix A Steps to Build and Test Model 3 of Thi
 
 ## 3 Results
 
-![[Pasted image 20240112014409.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%20240112014409.png)
 
 Model #3 outperformed all other models in terms of AUC, F1 score, sensitivity, and specificity.
 
 ChatGPT Model #1 and Model #2 are untrained and therefore have difficulty classifying narratives from specific specialties. Model#3 performed better than the other models by using a larger number of examples (57,460) and being trained on a specific classification task. This specialized training used embeddings to create a classification system designed to detect CB-PTSD. By training the model in this way, it was better suited for the specialized task of CB-PTSD detection.
 
-![[Pasted image 20240112020415.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%20240112020415.png)
 
 The models that we compared (Table 4) were evaluated using two Evaluation Methods on the dataset.
 
@@ -192,11 +193,12 @@ We find that a ChatGPT model untrained on a specific clinical task shows inadequ
 ## Appendix A Steps to Build and Test Model #3 of This Study
 
 **Step 1. Define a PCL-5 cutoff score.**  and **Step 2. Data preparation.**
-![[Pasted image 20240112180708.png]]
+
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%20240112180708.png)
 
 **Step 3. Develop a Machine Learning (ML) classifier that utilizes Natural Language Processing (NLP) features.
 
-![[Pasted image 20240112182334.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%20240112182334.png)
 
 This approach allowed us to generate multiple training examples since there are $\frac{n(n-1)}{2}$ possible combinations for $n$ sentences, thus addressing the challenge of training an ML model with a low number of examples, as in Class 1.
 
@@ -217,4 +219,4 @@ We compared the performance of Model #3 with the model in, as well as with Model
 
 Intuitively, our model should assign a higher likelihood of similarity between an embedded narrative of a woman with CB-PTSD to the vector $\bar{v}_p$ than to the vector $\bar{v}_n$.
 
-![[Pasted image 20240112184518.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%20240112184518.png)
