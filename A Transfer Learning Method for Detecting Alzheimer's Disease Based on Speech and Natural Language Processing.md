@@ -171,12 +171,15 @@ The experiment used the accuracy, precision, recall, and F1-score as indices to 
 $$
 \text{Accuracy} = \frac{TN + TP}{TN + FP + FN + TP}
 $$
+
 $$
 \text{Precision} = \frac{TN}{TN + FP}
 $$
+
 $$
 \text{Recall} = \frac{TP}{TP + FN}
 $$
+
 $$
 \text{F1-Score} = \frac{2TP}{2TP + FP + FN}
 $$
