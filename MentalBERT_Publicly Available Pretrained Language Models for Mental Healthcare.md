@@ -78,7 +78,7 @@ We apply the pretrained MentalBERT and MentalRoBERTa in binary mental disorder d
 
 We evaluate and compare mental disorder detection methods on different datasets with various mental disorders (e.g., depression, anxiety, and suicidal ideation) collected from popular social platforms (e.g., Reddit and Twitter).
 
-![[Pasted image 20240116213232.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240116213232.png)
 
 ### 3.2 Baselines
 
@@ -90,9 +90,9 @@ Note that the aim of this paper is not to achieve state-of-the-art performance b
 - F1-score ($\because$ Mental disorder detection is usually a task with unbalanced classes)
 - Recall score ($\because$ To reduce the FN)
 
-![[Pasted image 20240116214849.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240116214849.png)
 
-![[Pasted image 20240116215005.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240116215005.png)
 
 #### Discussion 
 
