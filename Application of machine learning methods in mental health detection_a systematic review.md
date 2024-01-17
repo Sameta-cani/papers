@@ -49,7 +49,7 @@ Most studies that used OSNs as their data source in mental health problem detect
 
 $\rightarrow$ 22 articles were revised as possible suitable studies.
 
-![[Pasted image 20240117141348.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118021614.png)
 
 ### B. Methodological quality assessment
 
