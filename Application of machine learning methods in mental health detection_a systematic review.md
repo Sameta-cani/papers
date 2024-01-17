@@ -3,9 +3,13 @@
 ## Author
 
 **ROHIZAH ABD RAHMAN**: Center for Artificial Intelligence Technology, Faculty of Information Science and Technology, Universiti Kebangsaan Malaysia, Bangi 43600, Malaysia
+
 **KHAIRUDDIN OMAR**: Center for Artificial Intelligence Technology, Faculty of Information Science and Technology, Universiti Kebangsaan Malaysia, Bangi 43600, Malaysia
+
 **SHAHRUL AZMAN MOHD NOAH**: Center for Artificial Intelligence Technology, Faculty of Information Science and Technology, Universiti Kebangsaan Malaysia, Bangi 43600, Malaysia
+
 **MOHD SHAHRUL NIZAM MOHD DANURI**: Department of Computer Science, Faculty of Science and Information Technology, Kolej Universiti Islam Antarabangsa Selangor, Kajang 43000, Malaysia
+
 **MOHAMMED ALI AL-GARADI**: Department of Radiology, University of California, San Diego, CA 92093, USA
 
 <hr>
