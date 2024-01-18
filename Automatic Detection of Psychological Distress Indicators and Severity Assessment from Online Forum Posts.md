@@ -3,19 +3,12 @@
 ## Authors
 
 **Shirin Saleem**: Raytheon BBN Technologies, 10 Moulton St, Cambridge, MA, U.S.A.
-
 **Rohit Prasad**: Raytheon BBN Technologies, 10 Moulton St, Cambridge, MA, U.S.A.
-
 **Maciej Pacula**: Raytheon BBN Technologies, 10 Moulton St, Cambridge, MA, U.S.A.
-
 **Michael Crystal**: Raytheon BBN Technologies, 10 Moulton St, Cambridge, MA, U.S.A.
-
 **Brian Marx**: National Center for PTSD at VA Boston Healthcare Sytem, Boston, MA, U.S.A., Boston University School of Medicine, Boston, MA, U.S.A.
-
 **Denise Sloan**: National Center for PTSD at VA Boston Healthcare Sytem, Boston, MA, U.S.A., Boston University School of Medicine, Boston, MA, U.S.A.
-
 **Jennifer Vasterling**: National Center for PTSD at VA Boston Healthcare Sytem, Boston, MA, U.S.A., Boston University School of Medicine, Boston, MA, U.S.A.
-
 **Theodore Speroff**: VA Tennessee Valley Healthcare System, Nashville, TN, U.S.A., Vanderbilt University School of Medicine, Nashville, TN, U.S.A.
 
 <hr>
@@ -65,7 +58,8 @@ Our corpus consists of threads downloaded from an online forum for veterans with
 
 In consultation with psychologists, a codebook of 136 psychological distress labels spanning PTSD, mTBI, and depression symptoms was developed. Codes/labels were mostly derived from the DSM-IV guidelines (American Psychiatric Association, 2000).
 
-![[Pasted image 20240118150443.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118150443.png)
+
 Expert psychologists next annotated each author in a thread with a triage code that indicates treatment acuity or the priority assigned to a referral for additional treatment.
 - TR1: Indicating current or imminent danger to self or others $\rightarrow$ emergency intervention or urgent care evaluation
 - TR2: Indicating behavioural disturbances, distress, functional impairment and/or suicidal/homicidal ideation without any imminent danger to self or others $\rightarrow$ non-urgent treatment referral
@@ -75,7 +69,7 @@ Expert psychologists next annotated each author in a thread with a triage code t
 
 ## 3 Approach Overview
 
-![[Pasted image 20240118151546.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118151546.png)
 
 ## 4 Multi-label Distress Classification 
 
@@ -124,17 +118,17 @@ We measured inter-annotator agreement between multiple annotators using the Flei
 
 ### 6.2 Multi-label Distress Classification 
 
-![[Pasted image 20240118155426.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118155426.png)
 
 SVM parameters were tuned based on 10-fold cross-validation on the training set were threads were randomly distributed across 10 different subsets.
 
  For our experiments with SVMs, we used the Weka machine learning software (Hall et. al, 2009) with the Radial Basis Function (RBF) kernel. We performed gridsearch to find the best regularization (C) and gamma (g) parameters on the cross-validation set. For the baseline experiment with SVMs, each message was treated as a bag of words with normalized (TF-IDF) frequencies. Next, the remaining features described in section 4.1 were incrementally added to the baseline feature set of the SVM classifier.
 
-![[Pasted image 20240118160223.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118160223.png)
 
 **We found that our approach(23.5 AUC) of using the rationales by extracting label specific domain phrase features out-performed the contrastive approach(22.3 AUC) in (Zaiden et. al, 2008).**
 
-![[Pasted image 20240118160418.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118160418.png)
 
 It is to be noted that the dataset has a high class imbalance. Hence, a large number of labels perform poorly merely due to the lack of sufficient training data.
 
@@ -142,9 +136,11 @@ We demonstrated this in the inter-annotator agreement study where we found only 
 
 ### 6.3 Triage Assessment
 
-![[Pasted image 20240118160842.png]]As can be observed, MLNs provide statistically significant gains over SVMs by using domain-specific rules for combining information from text as well as the distress label detections.
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118160842.png)
 
-![[Pasted image 20240118160941.png]]
+As can be observed, MLNs provide statistically significant gains over SVMs by using domain-specific rules for combining information from text as well as the distress label detections.
+
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118160941.png)
 
 ## 7. Conclusions and Future Work
 
