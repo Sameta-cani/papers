@@ -109,7 +109,7 @@ For the NER tasks, wer also tried epoch $\in \{2\}$. The maximum sequence length
 
 ### Qualitative Embedding Comparisons
 
-![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118173355.png)
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118173432.png)
 
 These lists suggest that Clinical BERT retains greater cohesion around medical or clinicoperations relevant terms than does BioBERT.
 
