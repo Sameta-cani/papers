@@ -3,12 +3,19 @@
 ## Authors
 
 **Shirin Saleem**: Raytheon BBN Technologies, 10 Moulton St, Cambridge, MA, U.S.A.
+
 **Rohit Prasad**: Raytheon BBN Technologies, 10 Moulton St, Cambridge, MA, U.S.A.
+
 **Maciej Pacula**: Raytheon BBN Technologies, 10 Moulton St, Cambridge, MA, U.S.A.
+
 **Michael Crystal**: Raytheon BBN Technologies, 10 Moulton St, Cambridge, MA, U.S.A.
+
 **Brian Marx**: National Center for PTSD at VA Boston Healthcare Sytem, Boston, MA, U.S.A., Boston University School of Medicine, Boston, MA, U.S.A.
+
 **Denise Sloan**: National Center for PTSD at VA Boston Healthcare Sytem, Boston, MA, U.S.A., Boston University School of Medicine, Boston, MA, U.S.A.
+
 **Jennifer Vasterling**: National Center for PTSD at VA Boston Healthcare Sytem, Boston, MA, U.S.A., Boston University School of Medicine, Boston, MA, U.S.A.
+
 **Theodore Speroff**: VA Tennessee Valley Healthcare System, Nashville, TN, U.S.A., Vanderbilt University School of Medicine, Nashville, TN, U.S.A.
 
 <hr>
