@@ -3,11 +3,17 @@
 ## Authors
 
 **Emily Alsentzer**: Harvard-MIT Cambridge, MA
+
 **John R. Murphy**: MIT CSAIL Cambridge, MA
+
 **Willie Boag**: MIT CSAIL Cambridge, MA
+
 **Wei-Hung Weng**: MIT CSAIL Cambridge, MA
+
 **Di Jin**: MIT CSAIL Cambridge, MA
+
 **Tristan Naumann**: Microsoft Research Redmond, WA
+
 **Matthew B. A. McDermott**: MIT CSAIL Cambridge, MA
 
 <hr>
@@ -48,7 +54,7 @@ In particular, we make the following contributions:
 
 ### 3.1 Data
 
-![[Pasted image 20240118174135.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118174135.png)
 
 Many note types are semi-structured, with section headers separating free-text paragraphs. To process these notes, we split all notes into sections, then used Scispacy(specifically, the en core sci md tokenizer) to perform sentence extraction.
 
@@ -90,20 +96,21 @@ For the NER tasks, wer also tried epoch $\in \{2\}$. The maximum sequence length
 
 ### 3.3 Tasks 
 
-![[Pasted image 20240118172608.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118172608.png)
 
 ## 4 Results & Discussions
 
 ### Clinical NLP Tasks 
 
-![[Pasted image 20240118172902.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118172902.png)
 
 - Overall, we feel our results demonstrates the utility of using domain-specific contextual embeddings for non de-ID clinical NLP tasks.
 - Additionally, on one task Discharge Summary BERT offers performance improvements over Clinical BERT, so it may be that adding greater specificity to the underlying corpus is helpful in some cases.
 
 ### Qualitative Embedding Comparisons
 
-![[Pasted image 20240118173355.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118173355.png)
+
 These lists suggest that Clinical BERT retains greater cohesion around medical or clinicoperations relevant terms than does BioBERT.
 
 ### Limitations & Future Work
