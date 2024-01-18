@@ -102,7 +102,7 @@ For the NER tasks, wer also tried epoch $\in \{2\}$. The maximum sequence length
 
 ### Clinical NLP Tasks 
 
-![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118173432.png)
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118174135.png)
 
 - Overall, we feel our results demonstrates the utility of using domain-specific contextual embeddings for non de-ID clinical NLP tasks.
 - Additionally, on one task Discharge Summary BERT offers performance improvements over Clinical BERT, so it may be that adding greater specificity to the underlying corpus is helpful in some cases.
