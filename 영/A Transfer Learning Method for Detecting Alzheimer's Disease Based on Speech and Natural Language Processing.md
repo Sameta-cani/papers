@@ -123,11 +123,11 @@ DistilBert Model distills the BERT base from 12 layers to 6 layers and removes t
 
 Specifically, the pretrained distilBert model is used as the feature extractor, the output layer of which is replaced by a logistic regression classifier for binary classification.
 
-![[Pasted image 20240115180117.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240115180117.png)
 
 The algorithm description of the entire process is presented below.
 
-![[Pasted image 20240115180815.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240115180815.png)
 
 DistilBert can capture long-distance dependencies by learning the global semantic message of input text thoroughly because it has some mechanisms, such as a multi-head self attention and location code.
 
@@ -141,7 +141,7 @@ In this study, the GridSearchCV function in the scikit-learn tool, including gri
 
 ### ADReSS Datasets
 
-![[Pasted image 20240115181958.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240115181958.png)
 
 The study is a picture description task from the Diagnostic Aphasia Examination, and participants are asked to describe a picture as detailed as possible.
 
@@ -149,11 +149,11 @@ An example of a transcript from the dataset is shown below.
 
 *A boy and a girl are in a kitchen with their mothers. The little boy is getting a cookie for the little girl, but he is on a stool and is about to fall. The mother is washing dishes. She is obviously thinking of something else because the water pours out over the sink. She finished with some dishes. It seems to be summer because there are bushes. The window is open. There seems to be some kind of breeze because the curtains on the sill there blow. It must be fairly hot. The mother is in a sleeveless dress. The children are in short sleeve tops and have sandals. The little boy has tennis shoes. The mother obviously is unaware of what the children are doing. She will be aware of this shortly. How much more do you want to do?*
 
-![[Pasted image 20240115182449.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240115182449.png)
 
 The age distribution of the two groups at different intervals is presented in **Table 1.** 
 
-![[Pasted image 20240115182529.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240115182529.png)
 
 The average values and standard deviations of age and mini-mental state examination (MMSE) scores are shown in **Table 2.**
 
@@ -181,11 +181,11 @@ $$
 \text{F1-Score} = \frac{2TP}{2TP + FP + FN}
 $$
 
-![[Pasted image 20240115184839.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240115184839.png)
 
 The champion used two models, acoustic and text, and combined the ERNIE model with discriminated markers to improve representation learning(accuracy of 0.896). We modified the model architecture of the distilBert model to achieve a strong classification performance using only text(accuracy of 0.88).
 
-![[Pasted image 20240115185748.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240115185748.png)
 
 **Table 5** shows the comparative results to check the influence of different classifiers.
 
