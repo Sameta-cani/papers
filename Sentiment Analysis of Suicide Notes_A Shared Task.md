@@ -81,13 +81,13 @@ We used hierarchical clustering with minimum variance aggregation technique to c
 
 ### Characteristics of the data
 
-![[Pasted image 20240125171637.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125171637.png)
 
 ### Ranking
 
-![[Pasted image 20240125172100.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125172100.png)
 
-![[Pasted image 20240125172127.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125172127.png)
 
 This suggests that appropriate ensemble of sentence classifiers might perform much better than a single instance classifier or even better than an ensemble of human experts.
 
