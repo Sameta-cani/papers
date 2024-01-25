@@ -61,7 +61,7 @@ The methodology needs of this work can be divided into four main parts:
 3. needs related to automatic classification using machine learning algorithms implemented in Weka
 4. requirements for a semantic analysis of these sentiments to improve our results.
 
-![[Pasted image 20240118185142.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118185142.png)
 
 ### 3.1. Vocabulary associated with Suicide act
 
@@ -70,7 +70,7 @@ The methodology needs of this work can be divided into four main parts:
 
 ### 3.2. Data collection 
 
-![[Pasted image 20240118185607.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240118185607.png)
 
 In this work, we collect the tweets using the search word defined in the part of the manual vocabulary. The treatment mechanism is used to collect sequential data from Twitter and the extraction is performed several times for more tweets. The token and access keys obtained, are necessary for the extraction of the tweets in real time from the Twitter page.
 
@@ -99,7 +99,7 @@ $(A, B)$: shortest length that separates A of B.
 
 To compute the semantic similarity between words of new tweets set and words of the tweets training set, we apply the following algorithm:
 
-![[Pasted image 20240125125357.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125125357.png)
 
 The proposed semantic analysis measure is presented by the following formula:
 
@@ -107,10 +107,15 @@ $$
 Sim_{lc}(a, b) = \frac{\sum_{i=1}^n\sum_{j=1}^ma_i*b_j*Sim(i, j)}{\sum_{i=1}^n\sum_{j=1}^ma_i*b_j}
 $$
 
+
 $i$: represents the terms of the training tweets of b.
+
 $j$: represents the terms of the new tweet a.
+
 $qi$: frequency occurrence of the term i in training tweets q.
+
 $dj$: frequency occurrence of the term j in new tweet a.
+
 $Sim(i, j)$: semantic similarity measure between the two terms of new tweets i and training tweets j.
 
 ## 4. Experimental results and Analysis 
@@ -119,13 +124,13 @@ Use our algorithm to compute the semantic similarity between the new collected t
 
 The percentage of suspicious tweets at risk of suicide and tweets suspect to risk compared to suspect tweets(using the Weka tool).
 
-![[Pasted image 20240125130414.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125130414.png)
 
-![[Pasted image 20240125130626.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125130626.png)
 
-![[Pasted image 20240125130813.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125130813.png)
 
-![[Pasted image 20240125130836.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125130836.png)
 
 ## 5. Conclusion 
 
