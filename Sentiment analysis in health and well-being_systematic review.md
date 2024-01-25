@@ -56,7 +56,7 @@ The search performed on January 24, 2019, retrieved a total of 299 articles.
 
 ### Selection Criteria
 
-![[Pasted image 20240125141351.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125141351.png)
 
 ## Results
 
@@ -105,15 +105,15 @@ We identified the following 5 roles:
 | CarerCarer | A family member or friend who regularly looks after a sick or disabled person |  [23,56-58,60,61,74-76] |
 | Suicide victim  | A person who has committed suicide.  | [51,82-100] |
 
-![[Pasted image 20240125144250.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125144250.png)
 
 ### Areas and Applications
 
 This section focuses on the areas of health and well-being encompassed by the given datasets in relation to research question RQ5. These areas provide context for the practical applications of SA, which are discussed in relation to question RQ6.
 
-![[Pasted image 20240125144611.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125144611.png)
 
-![[Pasted image 20240125144627.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125144627.png)
 
 ### Methods Used for Sentiment Analysis
 
@@ -172,7 +172,7 @@ In summary, the performance of SA of health narratives is much poorer than that 
 
 In relation to research question RQ9, this section provides an overview of practical resources that can be used to support development of SA approaches in the context of health and well-being.
 
-![[Pasted image 20240125151630.png]]
+![img](https://github.com/Sameta-cani/papers/blob/main/imgs/Pasted%20image%2020240125151630.png)
 
 This refers to a lack of lexicon regarding health and well-being.
 
