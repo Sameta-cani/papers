@@ -87,6 +87,7 @@ The majority of data were collected from the mainstream social multimedia and We
 | Cancer Survivors Network [73] | A social networking service that connects users whose lives have been affected by cancer and allows them to share personal experience and expressions of caring. | [74, 76] |
 | NHS website[77] (for merly NHS Choices) | The primary public facing website of the United Kingdom’s National Health Service (NHS) with  more than 43 million visits per month. It provides health-related information and allows patients to provide feedback on services. | [78] |
 | DiabetsDaily [79] | A social networking service that connects people affected by diabetes where they can trade advice and learn more about the condition. |  [80] |
+
 The fifth i2b2/VA/Cincinnati challenge in NLP for clinical data [81] represents an important milestone in SA research related to health and well-being. The challenge focused on the task of classifying emotions from suicide notes. The corpus used for this shared task contained 1319 written notes left behind by people who died by suicide.
 
 ### Data Authors 
