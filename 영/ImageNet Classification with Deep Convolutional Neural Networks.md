@@ -63,6 +63,7 @@ ILSVRC에서 제공하는 다양한 크기의 이미지를 먼저 짧은 쪽을 
 ## 3 The Architecture
 
 ![그림 1](https://github.com/Sameta-cani/jwork/assets/83288284/a3b64741-620f-491e-a928-1b4ae6307941)
+
 **Figure 1**: CNN 아키텍처에서 두 GPU 간의 책임을 명확하게 나타내고 있다.
 
 
@@ -71,6 +72,7 @@ ILSVRC에서 제공하는 다양한 크기의 이미지를 먼저 짧은 쪽을 
 본 논문에서는 기존의 포화 비선형성 활성화 함수인 $\text{tanh}(x)$ 및 $\text{sigmoid}(x)$ 대신, 비포화 비선형성 활성화 함수인 Rectified Linear Units (ReLUs), $f(x) = \text{max}(0, x)$를 사용할 경우 학습 속도를 훨씬 더 빠르게 향상시킬 수 있음을 제안한다.
 
 ![그림 2](https://github.com/Sameta-cani/jwork/assets/83288284/e0b25012-6c69-461f-ab9f-721e181d8ca8)
+
 **Figure 2**: ReLU(실선)를 사용하는 4층 컨볼루션 신경망은 tanh 뉴런(점선)을 사용하는 동등한 네트워크에 비해 CIFAR-10에서 훈련 오류율 25%를 달성하는 속도가 6배 빠르다.
 
 
@@ -98,6 +100,7 @@ $$
 ### 3.4 Overlapping Pooling
 
 ![그림 2](https://github.com/Sameta-cani/jwork/assets/83288284/fa741a35-0c86-4f4a-9c21-88253bdfd106)
+
 **Figure 3**: Overlapping Pooling
 
 CNN의 PoolingLayer는 동일한 kernel 맵에서 인접한 뉴런 그룹의 출력을 요약하고, feature map에서의 크기를 줄여 연산량을 줄이는 역할을 한다.
@@ -220,14 +223,17 @@ $$
 ### 6.1 Qualitative Evaluations
 
 ![그림 5](https://github.com/Sameta-cani/jwork/assets/83288284/34a9c457-14af-49a9-8c45-55315663fd70)
+
 **Figure 5**: 96 convolutional kernels of size 11 x 11 x 3 learned by the first convolutional layer on the 227 x 227 x 3 input images.
 
 Figure 5에서 상단의 48개 이미지는 GPU 1에 의해 학습되었으며, 색에 영향을 받지 않는 모습을 보여준다. 하단의 48개 이미지는 GPU 2에 의해 학습되었고, 색상에 따라 차이가 나타난다.
 
 ![그림 6](https://github.com/Sameta-cani/jwork/assets/83288284/2cfb35f6-a468-4f74-97d1-6c5cab54863b)
+
 **Figure 6**: 8개의 ILSVRC-2010 테스트 이미지와 우리 모델이 가장 가능성 높다고 판단한 5개의 라벨
 
 ![그림 7](https://github.com/Sameta-cani/jwork/assets/83288284/8ff6254b-8d2e-4ef0-ba80-05853bfc16c7)
+
 **Figure 7**: 첫 번째 열에는 5개의 ILSVRC-2010 테스트 이미지가 표시되어 있다. 나머지 열에서는 각 테스트 이미지의 특징 벡터와 유클리드 거리가 가장 작은 마지막 히든 레이어의 특징 벡터를 가진 6개의 훈련 이미지가 나열되어 있다.
 
 ## 7 Discussion
