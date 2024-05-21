@@ -233,12 +233,3 @@ Figure 5에서 상단의 48개 이미지는 GPU 1에 의해 학습되었으며, 
 이 연구에서는 크고 깊은 컨볼루션 네트워크를 사용하여 이미지 분류 작업에서 우수한 성능을 달성했으며, 네트워크의 깊이가 성능에 매우 중요하다는 점을 강조했다.
 
 향후 비디오 시퀀스에서 우수한 성능을 달성할 수 있는 컨볼루션 네트워크 연구를 진행하고자 한다.
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {inlineMath: [['$', '$'], ['$$', '$$']]},
-    messageStyle: "none",
-    "HTML-CSS": { availableFonts: "TeX", preferredFont: "TeX" },
-  });
-</script>
